@@ -1,0 +1,22 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "A comprehensive JavaScript learning journey - from basics to advanced concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests will be added as learning progresses\" && exit 0"
+  },
+  "keywords": [
+    "javascript",
+    "learning",
+    "tutorial",
+    "es6",
+    "programming"
+  ],
+  "author": "Naeem Shuvo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naeem-Shuvo/LEARNING-JS"
+  }
+}
