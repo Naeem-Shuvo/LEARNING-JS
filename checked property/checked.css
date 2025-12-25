@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+#submit{
+    color : rgb(0, 0, 13);
+    background-color : rgb(192, 192, 227);
+    padding : 10px 20px;
+    font-size: 1.5em;
+}
