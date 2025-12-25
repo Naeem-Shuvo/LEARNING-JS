@@ -1,0 +1,13 @@
+#head{
+    font-family: sans-serif;
+    background-color: rgb(231, 204, 204);
+    text-align: center;
+    font-size: 3em;
+}
+#randLabel{
+    display: block;
+    font-size: 9em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 1000;
+}
