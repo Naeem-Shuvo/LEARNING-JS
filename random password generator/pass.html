@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+
+<body>
+    <h1>Random Password Generator</h1>
+    <label id="command">check what charset u want to include:</label><br>
+    <div id="checks">
+        <input type="checkbox" id="lowercase">
+        <label for="lowercase">Lowercase include</label><br>
+        <input type="checkbox" id="uppercase">
+        <label for="uppercase">Uppercase include</label><br>
+        <input type="checkbox" id="numbers">
+        <label for="numbers">Numbers include</label><br>
+        <input type="checkbox" id="symbols">
+        <label for="symbols">Symbols include</label><br><br>
+    </div>
+    <label for="length">Password Length:</label>
+    <input type="number" id="length" min="1" max="128" placeholder="choose between 12 to 128"><br><br>
+    <button id="generate">Generate </button><br><br>
+    <div id="result">
+        No result yet
+    </div>
+    <script src="pass.js"></script>
+</body>
+
+</html>
