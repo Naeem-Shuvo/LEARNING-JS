@@ -31,3 +31,11 @@ button{
     cursor: pointer;
     box-shadow: 2px 2px  rgb(189, 102, 102);
 }
+p{
+   
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 34, 34);
+    padding: 20px;
+}
