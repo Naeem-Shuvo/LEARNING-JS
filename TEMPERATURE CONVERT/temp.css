@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: rgb(209, 237, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 20px rgb(253, 4, 4);
+    line-height: 2.5;
+}
+#inputTemp{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: medium;
+}
+h1{
+    color: rgb(179, 9, 9);
+}
+button{
+    padding : 10px;
+    border-radius: 10px;
+    background-color: rgb(186, 237, 255);
+    font-size: large;
+    cursor: pointer;
+    box-shadow: 2px 2px  rgb(189, 102, 102);
+}
