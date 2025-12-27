@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <form>  
+        <h1>Temperature Converter</h1>
+         <input type="number" id="inputTemp" placeholder="enter Temperature"><br>
+         <input type="radio" name="tempType" id="c2f">
+
+         <!-- When you click on the label text "Celsius to Fahrenheit",
+           it will automatically check the radio button - you don't have 
+           to click directly on the small radio button itself -->
+
+         <label for="c2f" id="labelc2f">Celsius to Fahrenheit</label><br>
+         <input type="radio" name="tempType" id="f2c">
+         <label for="f2c" id="labelf2c">Fahrenheit to Celsius</label><br>
+
+         
+         <!-- we can set onclick event on button also -->
+         <button type="button" id="convertBtn" onclick="convert()">Convert</button><br>
+    </form>
+    <p id="result"></p>
+    <script src="temp.js"></script>
+</body>
+</html>
