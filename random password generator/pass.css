@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.51);
+    font-family: cursive;
+    padding: 100px;
+}
+h1{
+    font-family:cursive;
+    color: brown;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(245, 157, 157);
+}
+#command{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#checks{
+    margin: 20px;
+    text-align: left;
+    margin-left: 150px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 241, 222);
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgb(241, 83, 83);
+}
+#length{
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border:solid 2px rgb(229, 215, 215);
+}
+#result {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #f8f9fa;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 24px;
+    width: 350px;
+    margin: 15px auto;
+    text-align: center;
+    color: #495057;
+}
