@@ -5,21 +5,16 @@
 //                     array.forEach(callback)
 //                     element, index, array are provided
 
-let numbers = [1, 2, 3, 4, 5];
+let fruits = ["apple", "banana", "cherry"];
 
 //***it will call print function over each element of the array***
 
-numbers.forEach(multiplyByTwo);
-numbers.forEach(print);
+//**used callback, not necessary */
+fruits.forEach(item => uppercaseFruit(item, print)); // Output: APPLE, BANANA, CHERRY
 
-
-//***no change if we call multiplyByTwo after print***
-// numbers.forEach(print);
-// numbers.forEach(multiplyByTwo);
-
-function multiplyByTwo(item, index, array) {
-    // modifying the original array
-    array[index] = item * 2;
+function uppercaseFruit(item, callback) {
+    const uppercased = item.toUpperCase();
+    callback(uppercased); // Use the callback to print
 }
 function print(item) { //only taking first parameter 
     console.log(item);
