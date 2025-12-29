@@ -1,27 +1,10 @@
-// arrow functions = a concise way to write function expressions
-//                                good for simple functions that you use only once
-//                                (parameters) => some code
+const numbers = [1, 2, 3, 4, 5];
+const squared=numbers.map((element)=>{
+    return element**2;
+});
+console.log(squared); // [1, 4, 9, 16, 25]
 
-function hello(){
-    console.log("Hello World");
-}
-hello();
-
-// ***Arrow Function Syntax
-const helloArrow = () => {  //**No parameters */
-    console.log("Hello World from Arrow Function");
-}
-helloArrow();
-
-//**Single line implicit return + use of parameter */ 
-const helloArrow2 = (user) => console.log("Hello World from Arrow Function "+user);
-helloArrow2("Nemo");
-
-const helloArrow3 = (user,age) =>{ console.log("Hello World from Arrow Function "+user);
-                              console.log(`You are ${age} years old.`);}
-helloArrow3("Nemo",23);
-
-//**setTimeout with Arrow Function */
-setTimeout(()=>{
-    console.log("This is setTimeout with Arrow Function");
-},3000);
+const evens=numbers.filter((element)=>{
+    return element % 2==0;
+});
+console.log(evens); // [2, 4]
