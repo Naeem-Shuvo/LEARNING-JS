@@ -6,6 +6,10 @@ function double(element) {
     // for map will return something since it modifies the array 
     // unlike forEach which just executed on each element 
     // but MAP will do the same yet will return the output*/
-    return element * 2;
+    //return element * 2;
+    console.log(element * 2);
 }
-console.log(modified);
+
+//final output [2, 4, 6, 8, 10 ]
+
+console.log(modified); //[undefined, undefined, undefined, undefined, undefined]
