@@ -5,13 +5,13 @@ const person1 = {
     name: "Spongebob",
     favFood: "hamburgers",
     sayHello: function(){console.log(`Hi! I am ${this.favFood}`)},
-    eat: function(){console.log(`${this.name} is eating ${this.favFood}`)}
+    eat: ()=>{console.log(`${this.name} is eating ${this.favFood}`)}
 }
 const person2 = {
     name: "Patrick",
     favFood: "pizza",
-    sayHello: function(){console.log(`Hi! I am ${this.favFood}`)},
-    eat: function(){console.log(`${this.name} is eating ${this.favFood}`)}
+    sayHello: ()=>{console.log(`Hi! I am ${this.favFood}`)},
+    eat: ()=>{console.log(`${this.name} is eating ${this.favFood}`)}
 }
 
 person1.eat();
