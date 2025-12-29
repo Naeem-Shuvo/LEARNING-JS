@@ -41,5 +41,4 @@ console.log(person2);
 console.log(person2.firstname, person2.lastname);
 console.log(person2.hobbies);
 console.log(person2.isEmployed);
-
 person2.sayHello(); //calling method
