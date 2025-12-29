@@ -1,13 +1,16 @@
-const hello = function() {
-    console.log("Hello, world!"); 
-}
-hello();    
+const numbers = [1, 2, 3, 4, 5];
+const squared=numbers.map(function(element){
+    return element**2;
+});
+//**AVOIDING CALLBACK */
+console.log(squared); // [1, 4, 9, 16, 25]
 
-//function passed as parameter and execute after timeout
+const evens=numbers.filter(function(element){
+    return element % 2==0;
+});
+console.log(evens); // [2, 4]
 
-setTimeout(hello,3000); //doesnt need a body since its already defined
-
-//instead of callback declare entire function inside setTimeout
-setTimeout(function() {
-    console.log("Hello after 5 seconds");
-},5000);
+const sum=numbers.reduce(function(accumulator, currentValue){
+    return accumulator + currentValue;
+});
+console.log(sum); // 15
