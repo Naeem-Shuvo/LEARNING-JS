@@ -20,3 +20,8 @@ helloArrow2("Nemo");
 const helloArrow3 = (user,age) =>{ console.log("Hello World from Arrow Function "+user);
                               console.log(`You are ${age} years old.`);}
 helloArrow3("Nemo",23);
+
+//**setTimeout with Arrow Function */
+setTimeout(()=>{
+    console.log("This is setTimeout with Arrow Function");
+},3000);
