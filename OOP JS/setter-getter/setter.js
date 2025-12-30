@@ -15,6 +15,20 @@ class Rectangle {
         if (height > 0) this._height = height;
         else console.error("Height must be positive");
     }
+
+    // Getters - controlled access
+    get width() {
+        return this._width;
+    }
+    
+    get height() {
+        return this._height;
+    }
+
+    // Getter that provides calculated value
+    get area() {
+        return this._width * this._height;
+    }
 }
 
 // const rect=new Rectangle(-10000,"pi");
@@ -32,5 +46,8 @@ console.log("After using setters:", rect);
 rect.width = -5; 
 rect.height = -10; 
 console.log("After invalid inputs:", rect); 
-console.log("Width:", rect._width);
-console.log("Height:", rect._height);
+console.log("Width (getter):", rect.width);
+console.log("Height (getter):", rect.height);
+console.log("Area (calculated):", rect.area);
+console.log("Direct access _width:", rect._width);
+console.log("Direct access _height:", rect._height);
